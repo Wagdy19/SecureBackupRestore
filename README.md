@@ -12,5 +12,8 @@ This project provides secure and automated backup and restore functionality usin
 
 ### Backup
 ```bash
-./backup.sh <source_dir> <backup_dir> <encryption_key> <days>
+./backup.sh /source/dir /backup/dir encryption_key 7
+
+### Restore 
+./restore.sh /backup/dir /restore/dir decryption_key
 
